@@ -84,7 +84,7 @@ public final class Tools {
         DIR_DATA = ctx.getFilesDir().getParent();
         MULTIRT_HOME = DIR_DATA+"/runtimes";
         
-            DIR_GAME_HOME = ctx.getExternalFilesDir(null).getAbsolutePath();
+        DIR_GAME_HOME = ctx.getExternalFilesDir(null).getAbsolutePath();
         
         DIR_GAME_NEW = DIR_GAME_HOME + "/.minecraft";
         DIR_HOME_VERSION = DIR_GAME_NEW + "/versions";
