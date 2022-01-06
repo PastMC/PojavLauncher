@@ -53,7 +53,13 @@ android {
             keyAlias "androiddebugkey"
             keyPassword "android"
         }
-        
+
+        googlePlayBuild {
+storeFile file("debug.keystore")
+            storePassword "android"
+            keyAlias "androiddebugkey"
+            keyPassword "android"
+}
     }
 	
     defaultConfig {
